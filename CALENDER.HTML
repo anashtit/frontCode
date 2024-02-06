@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="calender.CSS">
+  <title>Simple Calendar</title>
+</head>
+<body>
+  <div class="calendar">
+    <div class="month">
+      <h2> < December ></h2>
+    </div>
+    <div class="days">
+      <div class="day">Sunday</div>
+      <div class="day">Monday</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
+      <div class="day">Friday</div>
+      <div class="day">Saturday</div>
+      <!-- Add the calendar days dynamically using JavaScript -->
+    </div>
+
+    <div class="dates">
+      <div class="date"
+      onclick = " showdatavide()">1</div>
+
+
+      <div class="date4" 
+      onclick = "showdata()">2</div>
+      <div class="date4" 
+      onclick = "showdata()">3</div>
+
+
+      <div class="date"
+      onclick = " showdatavide()">4</div>
+      <div class="date2"
+      onclick = " showdatavide()">5</div>
+      <div class="date2"
+      onclick = " showdatavide()">6</div>
+
+      <div class="date1"
+      onclick = " showdatavide()">7</div>
+      <div class="date1"
+      onclick =  " showdatavide()">8</div>
+
+      <div class="date"
+      onclick = " showdatavide()">9</div>
+      <div class="date3"
+      onclick = " showdatavide()">10</div>
+      <div class="date3"
+      onclick = " showdatavide()">11</div>
+      <div class="date5"
+      onclick =  " showdatavide()">12</div>
+      <div class="date5"
+      onclick =  " showdatavide()">13</div>
+      <div class="date6"
+      onclick = " showdatavide()">14</div>
+      <div class="date6"
+      onclick = " showdatavide()">15</div>
+      <div class="date7"
+      onclick = " showdatavide()">16</div>
+      <div class="date7"
+      onclick =  " showdatavide()">17</div>
+      <div class="date8"
+      onclick = " showdatavide()">18</div>
+      <div class="date8"
+      onclick = " showdatavide()">19</div>
+      <div class="date"
+      onclick = " showdatavide()">20</div>
+      <div class="date"
+      onclick = " showdatavide()">21</div>
+      <div class="date"
+      onclick = " showdatavide()">22</div>
+      <div class="date"
+      onclick = " showdatavide()">23</div>
+      <div class="date"
+      onclick = " showdatavide()">24</div>
+      <div class="date"
+      onclick = " showdatavide()">25</div>
+      <div class="date"
+      onclick = " showdatavide()">26</div>
+
+
+
+      <div class="date4" 
+      onclick = "showdata2()">27</div>
+      <div  class="date4" 
+      onclick = "showdata2()">28</div>
+      <div  class="date4"  
+      onclick = "showdata2()">29</div>
+
+
+      <div class="date"
+      onclick = " showdatavide()">30</div>
+      <div class="date"
+      onclick = " showdatavide()">31</div>
+    </div>
+  </div>
+
+
+
+  <div id="nmbrs">
+
+    <button  class="ROMS" id="R1"   onclick="CHCO1()" ><h3> 1</h3></BUTTON>
+    <button   class="ROMS"   onclick=" CHCO2()" ><h3> 2</h3></BUTTON>
+    <button  class="ROMS"   onclick=" CHCO3()"  ><h3> 3</h3></BUTTON>
+    <button class="ROMS"  id="colorButton"    onclick=" CHCO4()"  ><h3> 4</h3></BUTTON>
+    <button  class="ROMS"   onclick=" CHCO5()"  ><h3> 5</h3></BUTTON>
+    <button  class="ROMS"  onclick=" CHCO6()"   ><h3> 6</h3></BUTTON>
+    <button  class="ROMS"  onclick=" CHCO7()"   ><h3> 7</h3></BUTTON>
+    <button  class="ROMS"  onclick=" CHCO8()"   ><h3> 8</h3></BUTTON>
+
+
+
+
+
+  </div>
+
+<div id="info">
+
+    <h1>Guest Information</h1>
+    <DIv class="S1">
+    <h3>Search</h3>
+    <input    placeholder="tape here"      type="text"   id="search">
+    </DIv>
+
+    <DIv class="S2">
+    <h3 class="RA9M">Room nbr</h3>
+    <input   class="ROM" placeholder=""      type="number"   id="room">
+    </DIv>
+
+    <div class="S3">
+    <h3>Check in</h3>
+    <input    placeholder=""     type="date"  id="inn">
+    </div>
+
+    <div class="S4">
+    <h3>Check out</h3>
+    <input    placeholder=""    type="date"  id="out">
+    </div>
+
+    <div class="S5">
+    <h3>First name</h3>
+    <input    placeholder=""      type="text"   id="prenom">
+    </div>
+
+    <div class="S6">
+    <h3>Last name</h3>
+    <input    placeholder=""      type="text"   id="nom">
+    </div>
+
+     <!--<div id="expand" -->
+   <button  onclick ="showmoredetails() "><h3> Expand for more details</h3></BUTTON> 
+
+    <Div class="BTN">
+    <button class="up"><h3> Update</h3></BUTTON>
+      <button class="up"><h3> Save</h3></BUTTON>
+
+    </Div>
+</div>
+    
+
+
+<div class="moreinfo">
+
+    <div class="S7">
+    <h3>CIN</h3>
+    <input   id="put" placeholder=""      type="text"   id="adress">
+    </div>
+
+  
+  <DIv class="S8">
+  <h3>Phone nbr</h3>
+  <input  id="put"  placeholder=""      type="text"   id="vehucule">
+  </DIv>
+
+  <DIv class="S9">
+  <h3>Email</h3>
+  <input id="put"  class="ROM" placeholder=""      type="text"   id="model">
+  </DIv>
+
+  <div class="S10">
+  <h3>Adress</h3>
+  <input   id="put" placeholder=""      type="text"   id="plate">
+  </div>
+
+  <script src="CALENDER.JS"></script>
+</body>
+</html>

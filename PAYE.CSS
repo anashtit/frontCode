@@ -1,0 +1,164 @@
+body{
+    background: rgb(40, 39, 39);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+  
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#info{
+
+
+
+    display:block;  
+    margin-left: 60px;
+    
+    
+
+}
+.S3{
+
+    display: flex;
+  justify-content: space-between;
+
+  }  .S4{
+
+    display: flex;
+  justify-content: space-between;
+
+  }  .S5{
+
+    display: flex;
+  justify-content: space-between;
+
+  }  .S6{
+
+    display: flex;
+  justify-content: space-between;
+
+  }  .S7{
+
+    display: flex;
+  justify-content: space-between;
+
+  }  .S8{
+
+    display: flex;
+  justify-content: space-between;
+
+  }
+.S9{
+
+    display: flex;
+  justify-content: space-between;
+
+  }  .S10{
+
+    display: flex;
+  justify-content: space-between;
+
+  }
+
+  h3{
+    margin-top: 3px;
+    
+  }
+
+  input{
+
+    
+    width: 50%;
+    height: 10px;
+    outline: none;
+    border: none;
+    margin: 3px ;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 5px ;
+    color: rgb(0, 0, 0);
+    
+    transition: background-color 0.3s ,transform 0.3s; /* Add a smooth transition for the color change */
+
+  }
+  input:hover{
+    background-color: #d3d3d3; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size on hover */
+}
+  #Confirmer{
+
+    width: 40%;
+    height: 15%;
+    
+  }
+
+  button{
+    
+    background-color: #dff8ff;
+    font-family: 'Arial', sans-serif;
+    font-size: medium;
+    border: none;
+    letter-spacing: 0,5px;
+    margin-top: 2px;
+    
+    
+  }
+
+  /* Add more styling as needed */
+  .up{
+
+    background: rgb(72, 157, 255) ;
+    width: 80px;
+    height: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: small;
+    border: none;
+    
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 5px;
+    margin-left: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ,transform 0.3s; /* Add a smooth transition for the color change */
+
+}
+  .up:hover {
+    background-color: #dc0000; /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size on hover */
+}
+
+
+
+#put{
+    margin-top: 10px;
+   width: 50%;
+   height: 15px;
+   outline: none;
+   border: none;
+   margin: 3px ;
+   background: rgb(255, 255, 255);
+   border-radius: 4px;
+   padding: 2px ;
+   color: rgb(0, 0, 0);
+   top: -140px;
+   display: block;
+ 
+ }
+
+
+ #BANK{
+  margin-top: 3px;
+  display:none;  
+  left: 200px;
+  bottom: -160px;
+  position:  relative;
+  line-height: 0,1;
+}
+  
+.error {
+  color: red;
+}

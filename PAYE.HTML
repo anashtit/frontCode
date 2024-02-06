@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="PAYE.CSS">
+  
+  <title>info</title>
+</head>
+<body>
+
+
+<div id="info">
+
+        <h1>Guest Information</h1>
+    
+      
+       
+
+        <div class="S3">
+          <h3>First Name</h3>
+          <input type="text" pattern="[a-zA-Z]{3,}" title="Please enter at least 3 letters" id="fname" data-validation>
+          <span id="fnameErrorMsg" style="color: red;"></span>
+        </div>
+        
+        
+    
+        <div class="S4">
+    
+          <h3>Last Name</h3>
+          <input type="text" pattern="[a-zA-Z]{3,}" title="Please enter at least 3 letters" id="lname" data-validation>
+          <span id="lnameErrorMsg" style="color: red;"></span>
+        </div>
+        
+    
+       <div class="S6">
+     
+        <h3>CIN</h3>
+        <input type="text" pattern="[a-zA-Z]\d{6}" title="Please enter " id="cin" data-validation>
+        <span id="cinErrorMsg" style="color: red;"></span>
+            </div>
+    
+          
+            
+            <div class="S10">
+              <h3>Address</h3>
+              <input type="text" pattern="[a-zA-Z0-9 ]{1,25}" title="Please enter up to 25 alphanumeric characters" id="address" data-validation>
+              <span id="addressErrorMsg" style="color: red;"></span>
+      </div>
+
+      <div class="S6">
+        <h3> Phone Number</h3>
+        <input type="text"    pattern="\d{10}"   title="Please enter 10 numbers" id="phnbr">
+        <span id="errorMsg" style="color: red;"></span>
+
+        </div> 
+        
+        <div class="S10">
+          <h3>Email</h3>
+        
+          <input type="email" id="mail" onblur="validateEmail()">
+          <span id="error-message" style="color: red;"></span>
+        </div>      
+        
+     
+              
+  
+
+        <Div class="BTN">
+             
+          <button   class="up" id="sese"><h3> SAVE</h3></BUTTON> 
+                
+     
+  </Div> 
+   
+
+
+    
+      
+    
+  
+
+
+
+<div id="BANK">
+        <h1>BANK CARD Information</h1>
+    
+        <div class="S3">
+        <h3>Card Number</h3>
+        <input    placeholder=""      type="text"   id="inn">
+        </div>
+    
+        <div class="S4">
+        <h3>CardHolder</h3>
+        <input    placeholder=""    type="text"   id="out">
+        </div>
+    
+      
+            <div class="S10">
+      <h3>MM/AA</h3>
+      <input   id="put" placeholder=""      type="date"   >
+      </div> 
+      
+      <div class="S6">
+            <h3>CVV </h3>
+            <input    placeholder=""      type="text"   id="personnes">
+            </div> 
+
+            <Div class="BTN">
+                <button class="up" id="Confirmer"><h3> CONFIRME  PAY</h3></BUTTON> 
+                    
+         
+        
+            </Div>
+</div>
+
+ <script src="PAYE.JS"></script>
+</body>

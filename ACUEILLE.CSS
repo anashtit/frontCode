@@ -1,0 +1,64 @@
+
+@font-face{
+
+    font-family:"Beon" ;
+    src: url("Beon-Regular.ttf");
+
+  }
+
+*{
+
+    padding: 0px;margin: 10px;
+
+    text-transform: capitalize;
+    text-decoration: none;
+    
+    
+    
+}
+body{
+
+    background-image: url(SEA.jpg) ;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    overflow: hidden;
+}
+
+.bates{
+    
+    
+    padding-left: 875px;
+    color: rgb(28, 0, 139);
+    
+    
+          font-family:"Beon",sans-serif ;
+    
+    
+  
+    
+    
+    font-size: large;
+    text-decoration: underline ;
+    font-weight: 20;
+}
+.titres a{
+    display: inline-block;
+    padding: 0px ;margin: 5px;
+    color: rgb(28, 0, 139);
+    padding-left: 880px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 0px;
+    
+   
+}
+.titres  a:hover{
+
+    
+    color: rgb(4, 128, 181);
+    /*transition: .5s;*/
+
+}
